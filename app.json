@@ -1,14 +1,14 @@
 {
-  "name": "XLICON MD",
+  "name": "🅰︎𝔡𝔯𝔢𝔫𝔞𝔩𝔦𝔫𝔢",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/3c341828d86ee7a89c73f.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Xlicon Bot", "Xlicon","Xlicon MD","theme bot","multi device","baileys","Profilecorruptederror"],
+  "logo": /"https://telegra.ph/file/b3d75bc146f8479594c8a.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Xlicon Bot", "🅰︎𝔡𝔯𝔢𝔫𝔞𝔩𝔦𝔫𝔢","🅰︎𝔡𝔯𝔢𝔫𝔞𝔩𝔦𝔫𝔢 MD","theme bot","multi device","baileys","부스팅☢︎︎MY💯 아드레날린 🤬||ᵗʳᵉᵐᵉⁿᵈᵒ||"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "BOT OWNER NAME",
-      "value": "ProfileCorruptedError"
+      "value": "https://telegra.ph/file/b3d75bc146f8479594c8a.jpg"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -20,8 +20,8 @@
        },
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
-    "required" :false,
-    "value": "false"
+    "required" :true,
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -33,7 +33,7 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/3c341828d86ee7a89c73f.jpg"
+     "value": "https://telegra.ph/file/b3d75bc146f8479594c8a.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -61,8 +61,8 @@
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm",
-      "value": "false",
-      "required" :false
+      "value": "true",
+      "required" :true
     },
       "PREFIX": {
   "description": "Enter your desired prefix for bot.",
@@ -77,13 +77,9 @@
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
-       "value": "ADD A OPEN AI KEY",
+       "value": "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",
        "required" :false
-  },
-  "MONGODB_URI": {
-    "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": "PUT YOUR MONGO URL HERE"
-  },
+ 
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are GOJO,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
      "value": "GOJO"
@@ -94,12 +90,12 @@
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
-     "value": "false",
-     "required": false 
+     "value": "true",
+     "required": true 
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": "XLICON-MD"
+    "value": "🅰︎𝔡𝔯𝔢𝔫𝔞𝔩𝔦𝔫𝔢"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
